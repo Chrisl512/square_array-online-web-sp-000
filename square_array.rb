@@ -1,8 +1,10 @@
 require 'pry'
 
 def square_array(array)
-  new_array = []
-   array.each {|square| square*square }
-   new_array = array
-   return new_array
+  #new_array = []
+  # array.each {|square| square*square }
+  # new_array = array
+  # return new_array
+  array.each do |number|
+    square = number*number
 end
