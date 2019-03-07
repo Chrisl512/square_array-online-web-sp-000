@@ -2,6 +2,6 @@ require 'pry'
 
 def square_array(array)
   array.each do |square|
-   array.fill(square*square)
+   array.first(square*square)
   end
 end
