@@ -12,5 +12,5 @@ def square_array(array)
   square = number*number
   new_array = square
   end
- new_array
+ 
 end
