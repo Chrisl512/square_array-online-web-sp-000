@@ -10,8 +10,8 @@ require 'pry'
 def square_array(array)
   array.each do |number|
   square = number*number
-  new_array = square
+  square
 
   end
-return new_array
+return square
 end
