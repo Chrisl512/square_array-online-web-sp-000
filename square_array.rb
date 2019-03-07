@@ -11,7 +11,6 @@ def square_array(array)
   array.each do |number|
   square = number*number
   new_array = square
-
   end
 return square
 end
